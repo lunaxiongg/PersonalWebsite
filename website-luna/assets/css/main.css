@@ -1,0 +1,149 @@
+/* THIS IS YOUR CSS FILE */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Montserrat:wght@500&display=swap');
+
+header {
+  background-image: url(../../img/pexels-eberhard-grossgasteiger-2217366.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+  padding: 400px 0;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+
+h1 + p {
+  font-size: 36px;
+  text-align: center;
+  color: #5B6877;
+  border-top: 1px solid #605157;
+  padding-top:  10px;
+}
+
+i.fab {
+  font-size: 24px;
+  color: #fff;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  line-height: 1.75em;
+}
+
+p a {
+  margin: 0 10px;
+}
+
+p a:hover i.fab{
+  color: #605157 !important;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section#about {
+  background-color: #C5DBD5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #605157;
+}
+
+img.profile {
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.75em;
+  color: #C2798D;
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  color: #5B6877;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+section#skills {
+  background-color: #FFFCBC;
+}
+
+section#skills h2 {
+  color: #5B6877;
+}
+
+.well {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+}
+
+section#contact {
+  background-color: #FFF5F4;
+}
+
+section#contact h4 {
+  color: #5B6877;
+}
+
+.well {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+}
+
+footer {
+  background: #605157;
+  color: #fff;
+  padding: 50px 0 100px;
+}
+
+ul.navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav.bg-light {
+  background: rgba(0,0,0,0.2) !important;
+}
+
+nav.bg-light a.nav-link:hover,
+nav.bg-light a.nav-link:focus,
+nav.bg-light a.nav-link:active {
+  color: #fff !important;
+}
+
+#skills .well {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#skills i.fas {
+  color: #74819D;
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    padding: 200px 0;
+  }
+}
